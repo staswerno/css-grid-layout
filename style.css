@@ -22,7 +22,7 @@ body {
 	height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 0.2fr 0.2fr 1.5fr 1.2fr 1.2fr 1.2fr 0.8fr;
+	grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
 	grid-template-areas:
 		"navbar"
 		"sidebar"
@@ -31,14 +31,11 @@ body {
 		"content-2"
 		"content-3"
 		"footer";
-	gap: 10px;
+	gap: 0.2rem;
 }
 
 @media all and (min-width: 600px) {
 	.container {
-		width: 100vw;
-		height: 100vh;
-		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
 		grid-template-areas:
